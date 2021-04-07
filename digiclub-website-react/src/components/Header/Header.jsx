@@ -2,16 +2,14 @@ import React from 'react';
 import './Header.css'
 
 
-const Header = ({}) => {
+const Header = ({headTitle}) => {
     return(
         <div className="heade-container">
             <img
             src= ""
             className={`head-image`}
             alt="headerImage"/>
-            <hi className={`head-text`}>
-
-            </hi>
+            <hi className={`head-text`}>{headTitle}</hi>
         </div>
     );
 };
