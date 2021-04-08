@@ -1,21 +1,20 @@
 import React from 'react';
 import Header from '../Header/Header';
-import './App.css';
+import Navbar from '../Navbar/Navbar';
 
+import './App.css';
 
 class App extends React.Component {
     state = {
         headerText: 'This is DigiClubs Website!!',
     };
-    render (){
+    render() {
         return (
             <div>
-                <Header/>
-                
+                <Navbar />
             </div>
-        )
+        );
     }
 }
 
-
-export default App
+export default App;
