@@ -1,17 +1,19 @@
 import React from 'react';
-import Header from '../Header/Header';
+import Landing from '../Landing/Landing';
+import Navbar from '../Navbar/Navbar';
 
 
 import './App.css';
 
 class App extends React.Component {
-    state = {
-        headerText: 'This is DigiClubs Website!!',
-    };
     render() {
         return (
-            <div>
-                <Header/>
+            <div className="app">
+                {/* Nav Section*/}
+                <Navbar />
+                {/*Landing Section*/}
+                <Landing />
+
             </div>
         );
     }
