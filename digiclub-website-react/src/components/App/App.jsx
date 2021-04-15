@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Landing from '../Landing/Landing';
 import Navbar from '../Navbar/Navbar';
 
@@ -13,6 +14,10 @@ class App extends React.Component {
                 <Navbar />
                 {/*Landing Section*/}
                 <Landing />
+
+
+                {/*Footer*/}
+                <Footer />
 
             </div>
         );
