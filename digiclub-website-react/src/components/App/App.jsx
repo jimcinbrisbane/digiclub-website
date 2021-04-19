@@ -1,4 +1,6 @@
 import React from 'react';
+import Contact from '../Contact/Contact';
+import MoreInfro from '../FAQ/MoreInformation';
 import Footer from '../Footer/Footer';
 import Landing from '../Landing/Landing';
 import Navbar from '../Navbar/Navbar';
@@ -15,13 +17,18 @@ class App extends React.Component {
                 {/*Landing Section*/}
                 <Landing />
 
-
-                {/*Footer*/}
+                {/*Contact Section */}
+                <Contact />
+                {/*More Infromatio */}
+                <MoreInfro />
+                {
+                /*Footer*/}
                 <Footer />
 
             </div>
         );
     }
 }
+
 
 export default App;

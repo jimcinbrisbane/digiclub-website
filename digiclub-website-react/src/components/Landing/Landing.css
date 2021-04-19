@@ -9,37 +9,3 @@
     margin: 0;
     flex-wrap: wrap;
 }
-
-.landing-text {
-    font-size: 92px;
-    letter-spacing: 4px;
-    margin: 0;
-}
-
-.typewriter-container {
-    font-size: 64px;
-    letter-spacing: 40px;
-}
-
-.senior-image {
-    width: 40vw;
-}
-
-@media (max-width: 800px) {
-    .landing-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .senior-image {
-        width: 80vw;
-    }
-
-    .landing-text {
-        margin-top: 32px;
-        text-align: center;
-    }
-    .typewriter-container {
-        text-align: center;
-    }
-}
