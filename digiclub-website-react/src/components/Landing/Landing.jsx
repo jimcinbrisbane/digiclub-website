@@ -4,21 +4,15 @@ import senior from "./../../components/Assets/senior.jpeg";
 
 const Landing = () => {
     return (
+        // This is the Major part for the imga and buttons
+        
         <div className="landing-container">
-            <div className="landing-left">
-                <h1 className="landing-text">Can you type... </h1>
-                <div className="typewriter-container">
-                    <p>Fast?</p>
-                    <p>Correct?</p>
-                    <p>Quick?</p>
-                </div>
+            <div className="background-image">
+                 <img className="flash-image" src={senior} alt="hero" />
             </div>
-            <div className="landing-right">
-                <img className="senior-image" src={senior} alt="hero" />
-            </div>
-
         </div>
-    )
+        
+    );
 }
 
 export default Landing;
