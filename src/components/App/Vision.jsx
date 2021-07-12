@@ -1,5 +1,4 @@
 import React from 'react';
-import hmw from '../Assets/hmw2.png'
 
 class Card extends React.Component {
     render() {

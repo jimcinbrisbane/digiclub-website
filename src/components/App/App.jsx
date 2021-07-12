@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 import Events from './Events'
 import Vol from './Vol'
 import Vision from './Vision'

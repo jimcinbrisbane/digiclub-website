@@ -10,7 +10,7 @@ class Events extends React.Component {
             <h4>Learn more at Health my way</h4>
             <p>When：Prospond due to covid</p>
             <p>Where: Indooroopilly Activity Hub & The Exchange Communify, Kelvin Grove </p>
-            <img src={hmw}  style={{"width":"420px"}}/>
+            <img src={hmw} alt="health my way goodthing foundation and be connected, delivered by digiclub at communify kelvin grove the exchange and Indooroopilly Activity Hub"  style={{"width":"420px"}}/>
     </div>
     </div>
 
