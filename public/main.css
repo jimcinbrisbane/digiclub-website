@@ -42,6 +42,8 @@ html{
 }
   
 .c2abtn {
+  border: none;
+
   float: left;
   display: block;
   color: white;
